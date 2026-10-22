@@ -9,7 +9,7 @@
   "lint": "eslint .",
   "preview": "vite preview",
   "test": "vitest run",
-  "postbuild": "touch docs/.nojekyll"
+  "postbuild": "touch docs/.nojekyll && cp docs/index.html docs/404.html"
 },
   "dependencies": {
     "react": "^19.3.1",
