@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="page-content">
+    <div>
       <h1>Contact Me</h1>
       
       <h2> Mail to: r_abdyashim@kbtu.kz</h2>
